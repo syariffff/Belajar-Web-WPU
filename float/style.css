@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #eaeaea;
+    font-family: calibri;
+
+}
+
+.container-article {
+    background-color: white;
+    width: 960px;
+    margin: auto;
+}
+
+.header h1{
+    margin: 0;
+    padding: 10px;
+}
+
+.header ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding-left: 12px;
+}
+
+.header ul li{
+    margin-right: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: salmon;
+}
+
+a:hover {
+    color: black;
+}
+
+.gambar{
+    height: 350px;
+    background-image: url(maeng.jpg);
+    background-position: -70px -300px;
+    margin-top: 10px;
+    border-top: 5px solid #542bda;
+    border-bottom: 5px solid #de2c2c;
+}
+
+.main h2 {
+    margin: 5px 12px;
+}
+
+.main .penulis{
+    margin: 10px 12px;
+}
+
+.main p{
+    margin: 20px 12px;
+}
+
+.footer{
+    background-color: black;
+    margin-top: 30px;
+}
+
+.footer p{
+    padding: 8px;
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
